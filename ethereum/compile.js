@@ -26,7 +26,7 @@ const input = {
 
 const output = JSON.parse(solc.compile(JSON.stringify(input))).contracts[
 "PatientData.sol"
-]; //It will contains 2 objects. One is Campaign and the other is CampaignFactory
+];
 
 fs.ensureDirSync(buildPath);
 
